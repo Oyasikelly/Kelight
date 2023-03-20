@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --primary: #89cff0;
+  --secondary: #1ca9c9;
+  --complementary: #ffa500;
+}
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  background: #fff;
+  scroll-behavior: smooth;
+  scroll-snap-type: mandatory;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+}
+li {
+  list-style: none;
+}
+h1 {
+  font-size: 3rem;
+  color: var(--secondary);
+}
+h2 {
+  font-size: 2rem;
+  color: var(--secondary);
+}
+h3 {
+  font-size: 1rem;
+  color: var(--secondary);
+}
+input,
+select {
+  outline: none;
+}
+p {
+  color: gray;
+}
+img {
+  width: 100%;
+}
